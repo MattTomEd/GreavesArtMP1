@@ -2,6 +2,43 @@
 
 /* ---------- COLOURS */
 
+.image-quote-1 p {
+    color: white;
+}
+
+.image-quote-2 p {
+    color: white;
+}
+
+.image-about-quote{
+    color: white;
+}
+
+
+.section-font{
+    color: black;
+}
+
+.title-font {
+    color: white;
+}
+
+/* ---------- PADDINGS/MARGINS/TEXT */
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+
 /* ---------- FONTS/STYLES */
 
 .section-font h1 {
@@ -47,13 +84,13 @@
 .title-font h5 {
     font-family: "Source Serif Pro", sans-serif;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 8vw;
 }
 
 .title-font p {
     font-family: "Source Serif Pro", sans-serif;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 4vw;
 }
 
 .carousel-inner img {
@@ -61,32 +98,60 @@
     object-fit: cover;
 }
 
-/* ---------- IMAGE QUOTE */
+/* ---------- GALLERY */
 
-.image-quote {
-    background-image: url("../images/image1.png");
-    background-position: center;
+
+/* ---------- BACKGROUND IMAGES */
+
+.image-quote-1 {
+    background-image: url("../images/background1.png");
+    background-position: 50% 40%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.image-quote p {
-    color: white;
+.image-quote-2 {
+    background-image: url("../images/background3.png");
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.image-about-quote {
+    background-image: url("../images/background3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.image-about-quote h1 {
+font-size: 8vw;
+
+}
+
 
 /* ---------- FOOTER */
 
-.footer h3 {
-    letter-spacing: .2rem;
-}
 
 .footer {
     background-color: lightgreen;
     padding: 50px 0;
+    
 }
 
-/* ---------- PADDINGS/MARGINS/TEXT */
+.footer h3 {
+    letter-spacing: .2rem;
+    font-size: 8vw;
+}
 
+.footer h4 {
+    font-size: 8vw;
+}
+
+.footer i {
+    letter-spacing: .2rem;
+    font-size: 4vw;
+}
 
 
 /* ---------- MEDIA QUERIES */
@@ -96,6 +161,21 @@
   .carousel-item img {
     height: 525px;
 }
+
+.footer h3 {
+    letter-spacing: .2rem;
+    font-size: 4vw;
+}
+
+.footer h4 {
+    font-size: 4vw;
+}
+
+.footer i {
+    letter-spacing: .2rem;
+    font-size: 2vw;
+}
+
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -103,6 +183,7 @@
   .carousel-item img {
     height: 550px;
 }
+
 }
  
 /* Large devices (desktops, 992px and up) */
@@ -110,6 +191,34 @@
   .carousel-item img {
     height: 600px;
 }
+
+.image-about-quote h1 {
+font-size: 36px;
+
+}
+
+.title-font p {
+    font-size: 32px;
+}
+
+.title-font h5 {
+    font-size: 48px;
+}
+
+.footer h3 {
+    letter-spacing: .2rem;
+    font-size: 24px;
+}
+
+.footer h4 {
+    font-size: 24px;
+}
+
+.footer i {
+    letter-spacing: .2rem;
+    font-size: 24px;
+}
+
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
