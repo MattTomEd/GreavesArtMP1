@@ -4,6 +4,41 @@
 
 /* ---------- FONTS/STYLES */
 
+.section-font h1 {
+    font-family: "Source Serif Pro", sans-serif;
+    font-weight: 700;
+}
+
+.section-font h2 {
+    font-family: "Source Serif Pro", sans-serif;
+    font-weight: 500;
+}
+
+.section-font h3 {
+    font-family: "Source Serif Pro", sans-serif;
+    font-weight: 400;
+}
+
+.section-font h4 {
+    font-family: "Source Serif Pro", sans-serif;
+    font-weight: 300;
+    font-style: oblique;
+}
+
+.section-font p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+
+.circular-border {
+    border-radius: 50%;
+}
+
+.blockquote p {
+    font-style: italic;
+}
+
+
 /* ---------- NAVIGATION BAR */
 
 /* ---------- CAROUSEL */
@@ -16,17 +51,43 @@
 }
 
 .title-font p {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
+    font-family: "Source Serif Pro", sans-serif;
+    font-weight: 400;
     font-size: 32px;
 }
-
-
 
 .carousel-inner img {
     height: 500px;
     object-fit: cover;
 }
+
+/* ---------- IMAGE QUOTE */
+
+.image-quote {
+    background-image: url("../images/image1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-quote p {
+    color: white;
+}
+
+/* ---------- FOOTER */
+
+.footer h3 {
+    letter-spacing: .2rem;
+}
+
+.footer {
+    background-color: lightgreen;
+    padding: 50px 0;
+}
+
+/* ---------- PADDINGS/MARGINS/TEXT */
+
+
 
 /* ---------- MEDIA QUERIES */
 
