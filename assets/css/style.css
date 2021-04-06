@@ -15,7 +15,7 @@
 }
 
 
-.section-font{
+.section-font {
     color: black;
 }
 
@@ -62,8 +62,13 @@ html,body
     font-style: oblique;
 }
 
-.section-font p {
+.section-font p, li, ul, small {
     font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+
+.section-font label, select {
+    font-family: "Source Serif Pro", sans-serif;
     font-weight: 500;
 }
 
@@ -111,7 +116,7 @@ html,body
 }
 
 .image-quote-2 {
-    background-image: url("../images/background3.png");
+    background-image: url("../images/portfolio7.png");
     background-position: 50% 25%;
     background-repeat: no-repeat;
     background-size: cover;
