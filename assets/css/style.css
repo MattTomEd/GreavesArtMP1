@@ -1,6 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
-/* ---------- COLOURS */
+/* ---------- COLOURS/BACKGROUNDS */
+
+body {
+    z-index: -1;
+    background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(224,245,210,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,245,210,1)  100%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,245,210,1)  100%);
+}
+
+.navbar-dark {
+    background: -moz-linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
+    background: -webkit-linear-gradient(90deg, #31392d, #5c6b54 100%);
+    background: linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(224,245,210,1);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(224,245,210,.35);
+}
+
+.carousel-gradient {
+    background-color: #31392d;
+}
 
 .image-quote-1 p {
     color: white;
@@ -10,18 +35,75 @@
     color: white;
 }
 
-.image-about-quote{
+.image-about-quote {
     color: white;
 }
 
 
 .section-font {
-    color: black;
+    color: #31392d;
 }
 
 .title-font {
     color: white;
 }
+
+.more-info-icons {
+    background: -moz-linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
+    background: -webkit-linear-gradient(90deg, #31392d, #5c6b54 100%);
+    background: linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
+    color: rgb(224,245,210,1);
+}
+
+.footer {
+    background: -moz-linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
+    background: -webkit-linear-gradient(90deg, #31392d, #5c6b54 100%);
+    background: linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
+}
+
+.footer-font h1 {
+    color: rgb(224,245,210,1);
+}
+
+.footer-font h2 {
+    color: rgb(224,245,210,1);
+}
+
+.footer-font h3 {
+    color: rgb(224,245,210,1);
+}
+
+.footer-font h4 {
+    color: rgb(224,245,210,1);
+}
+
+.footer-font h5 {
+    color: rgb(224,245,210,1);
+}
+
+.footer-font h6 {
+    color: rgb(224,245,210,1);
+}
+
+.footer-font i {
+    color: rgb(224,245,210,1);
+}
+
+.footer-font p {
+    color: rgb(224,245,210,1);
+}
+
+.social-links li a i {
+    color: rgb(224,245,210,1);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: rgba(224,245,210,.35);
+    
+}
+
+
 
 /* ---------- PADDINGS/MARGINS/TEXT */
 
@@ -59,15 +141,39 @@ html,body
 .section-font h4 {
     font-family: "Source Serif Pro", sans-serif;
     font-weight: 300;
-    font-style: oblique;
 }
 
-.section-font p, li, ul, small {
+.section-font h5 {
+    font-family: "Source Serif Pro", sans-serif;
+    font-weight: 300;
+}
+
+.section-font small {
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
 }
 
-.section-font label, select {
+.section-font ul {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+
+.section-font li {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+
+.section-font p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+
+.section-font label {
+    font-family: "Source Serif Pro", sans-serif;
+    font-weight: 500;
+}
+
+.section-font select {
     font-family: "Source Serif Pro", sans-serif;
     font-weight: 500;
 }
@@ -80,8 +186,19 @@ html,body
     font-style: italic;
 }
 
+.more-info-icons i {
+    font-size: 12vw;
+}
+
+.footer-font {
+    font-family: "Source Serif Pro", sans-serif;
+    font-weight: 300;
+}
+
 
 /* ---------- NAVIGATION BAR */
+
+
 
 /* ---------- CAROUSEL */
 
@@ -131,7 +248,6 @@ html,body
 
 .image-about-quote h1 {
 font-size: 8vw;
-
 }
 
 
@@ -139,9 +255,7 @@ font-size: 8vw;
 
 
 .footer {
-    background-color: lightgreen;
     padding: 50px 0;
-    
 }
 
 .footer h3 {
@@ -156,6 +270,11 @@ font-size: 8vw;
 .footer i {
     letter-spacing: .2rem;
     font-size: 4vw;
+}
+
+.logo-footer img {
+    width: 40%;
+    height: 40%;
 }
 
 
@@ -181,6 +300,11 @@ font-size: 8vw;
     font-size: 2vw;
 }
 
+.social-links i {
+    font-size: 7vw;
+}
+
+
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -188,6 +312,10 @@ font-size: 8vw;
   .carousel-item img {
     height: 550px;
 }
+
+.image-about-quote h1 {
+    font-size: 5vw;
+    }
 
 }
  
@@ -198,8 +326,7 @@ font-size: 8vw;
 }
 
 .image-about-quote h1 {
-font-size: 36px;
-
+font-size: 54px;
 }
 
 .title-font p {
@@ -224,6 +351,19 @@ font-size: 36px;
     font-size: 24px;
 }
 
+.social-links i {
+    font-size: 4vw;
+}
+
+
+.logo-footer img {
+    width: 50%;
+}
+
+.more-info-icons i {
+    font-size: 4vw;
+}
+
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
@@ -231,4 +371,13 @@ font-size: 36px;
   .carousel-item img {
     height: 700px;
 }
+
+.image-about-quote h1 {
+    font-size: 58px;
+    }
+
+    .social-links i {
+        font-size: 2vw;
+    }
+
 }
