@@ -203,7 +203,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Content
 
--   All content was written by the developer. CodeInstitute's sample README was used as a guide on how to document a comprehensive design process, and I used this template to inform the layout of my own design journey.
+-   CodeInstitute's sample README was used as a guide on how to document a comprehensive design process, and I used this template to inform the layout of my own design journey.
 
 
 ### Media
