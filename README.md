@@ -60,15 +60,15 @@ The first three points will be focused on, with further time being afforded to a
 
 There is no need for the website to deviate from a linear structure of pages, as this will confuse customers less familiar with non-traditional web design. The website will follow interaction design objectives as outlined below:
 
-*   Consistency – Pages must look, feel and interact in a consistent way
+*   Consistency – Pages must look, feel and interact in a consistent way. This applies to link :hover and :active behaviours as well as moving parts of the website, such as the carousel
 
-*   Predictability – The website must respond in a predictable manner
+*   Predictability – The website must respond in a predictable manner - particularly important for when users click on images as part of the Portfolio section
 
-*   Learnability – Features must be intuitive and feature single-click learning to prevent visitors becoming frustrating and clicking away
+*   Learnability – Features must be intuitive and feature single-click learning to prevent visitors becoming frustrating and clicking away, particularly important for capturing user data on the Contact section
 
 *   Visibility – Features must be visible, with content hinting included as appropriate
 
-*   Feedback – Input fields and clickable events should respond in a way that assures the user that an event is progressing. This includes a broken link page, but this will be outside the scope of this project.
+*   Feedback – Input fields and clickable events should respond in a way that assures the user that an event is progressing. This includes a broken link page, but this will be outside the scope of this project. Feedback will be provided on the Contact form if incorrect data is entered, or if a required field is missing.
 
 # Skeleton plane
 
@@ -217,3 +217,5 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Code Institute for the Slack channel and tutor support when encouring technical issues or sudden Gitpod updates.
 
 -   Catrin for the images.
+
+-   The owners of the two example websites I browsed for ideas on how to create an appropriate website, JH Weddings and The Cardiff Photographer.
