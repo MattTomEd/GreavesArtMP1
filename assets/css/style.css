@@ -206,6 +206,9 @@ body {
   font-family: "Source Serif Pro", sans-serif;
   font-weight: 300;
 }
+.profile-pic {
+  width: 75%;
+}
 /* ---------- CAROUSEL */
 .title-font h5 {
   font-family: "Source Serif Pro", sans-serif;
@@ -256,7 +259,7 @@ body {
 }
 .footer i {
   letter-spacing: 0.2rem;
-  font-size: 4vw;
+  font-size: 6vw;
 }
 .logo-footer img {
   width: 40%;
