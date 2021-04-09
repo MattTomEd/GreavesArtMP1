@@ -1,383 +1,376 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
 
 /* ---------- COLOURS/BACKGROUNDS */
 
 body {
-    z-index: -1;
-    background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(224,245,210,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,245,210,1)  100%);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(224,245,210,1)  100%);
+  z-index: -1;
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(224, 245, 210, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(224, 245, 210, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(224, 245, 210, 1) 100%
+  );
 }
 
 .navbar-dark {
-    background: -moz-linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
-    background: -webkit-linear-gradient(90deg, #31392d, #5c6b54 100%);
-    background: linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
+  background: -moz-linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
+  background: -webkit-linear-gradient(90deg, #31392d, #5c6b54 100%);
+  background: linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgb(224,245,210,1);
+  color: rgb(224, 245, 210, 1);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: rgba(224,245,210,.35);
+  color: rgba(224, 245, 210, 0.35);
 }
 
 .carousel-gradient {
-    background-color: #31392d;
+  background-color: #31392d;
 }
 
 .image-quote-1 p {
-    color: white;
+  color: white;
 }
 
 .image-quote-2 p {
-    color: white;
+  color: white;
 }
 
 .image-about-quote {
-    color: white;
+  color: white;
 }
 
-
 .section-font {
-    color: #31392d;
+  color: #31392d;
 }
 
 .title-font {
-    color: white;
+  color: white;
 }
 
 .more-info-icons {
-    background: -moz-linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
-    background: -webkit-linear-gradient(90deg, #31392d, #5c6b54 100%);
-    background: linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
-    color: rgb(224,245,210,1);
+  background: -moz-linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
+  background: -webkit-linear-gradient(90deg, #31392d, #5c6b54 100%);
+  background: linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
+  color: rgb(224, 245, 210, 1);
 }
 
 .footer {
-    background: -moz-linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
-    background: -webkit-linear-gradient(90deg, #31392d, #5c6b54 100%);
-    background: linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
+  background: -moz-linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
+  background: -webkit-linear-gradient(90deg, #31392d, #5c6b54 100%);
+  background: linear-gradient(90deg, #31392d 0%, #5c6b54 100%);
 }
 
 .footer-font h1 {
-    color: rgb(224,245,210,1);
+  color: rgb(224, 245, 210, 1);
 }
 
 .footer-font h2 {
-    color: rgb(224,245,210,1);
+  color: rgb(224, 245, 210, 1);
 }
 
 .footer-font h3 {
-    color: rgb(224,245,210,1);
+  color: rgb(224, 245, 210, 1);
 }
 
 .footer-font h4 {
-    color: rgb(224,245,210,1);
+  color: rgb(224, 245, 210, 1);
 }
 
 .footer-font h5 {
-    color: rgb(224,245,210,1);
+  color: rgb(224, 245, 210, 1);
 }
 
 .footer-font h6 {
-    color: rgb(224,245,210,1);
+  color: rgb(224, 245, 210, 1);
 }
 
 .footer-font i {
-    color: rgb(224,245,210,1);
+  color: rgb(224, 245, 210, 1);
 }
 
 .footer-font p {
-    color: rgb(224,245,210,1);
+  color: rgb(224, 245, 210, 1);
 }
 
 .social-links li a i {
-    color: rgb(224,245,210,1);
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  color: rgb(224, 245, 210, 1);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 
 .social-links li a i:hover {
-    color: rgba(224,245,210,.35);
-    
+  color: rgba(224, 245, 210, 0.35);
 }
-
-
 
 /* ---------- PADDINGS/MARGINS/TEXT */
 
-html,body
-{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 .container-fluid {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
-
 
 /* ---------- FONTS/STYLES */
 
 .section-font h1 {
-    font-family: "Source Serif Pro", sans-serif;
-    font-weight: 700;
+  font-family: "Source Serif Pro", sans-serif;
+  font-weight: 700;
 }
 
 .section-font h2 {
-    font-family: "Source Serif Pro", sans-serif;
-    font-weight: 500;
+  font-family: "Source Serif Pro", sans-serif;
+  font-weight: 500;
 }
 
 .section-font h3 {
-    font-family: "Source Serif Pro", sans-serif;
-    font-weight: 400;
+  font-family: "Source Serif Pro", sans-serif;
+  font-weight: 400;
 }
 
 .section-font h4 {
-    font-family: "Source Serif Pro", sans-serif;
-    font-weight: 300;
+  font-family: "Source Serif Pro", sans-serif;
+  font-weight: 300;
 }
 
 .section-font h5 {
-    font-family: "Source Serif Pro", sans-serif;
-    font-weight: 300;
+  font-family: "Source Serif Pro", sans-serif;
+  font-weight: 300;
 }
 
 .section-font small {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
 }
 
 .section-font ul {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
 }
 
 .section-font li {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
 }
 
 .section-font p {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
 }
 
 .section-font label {
-    font-family: "Source Serif Pro", sans-serif;
-    font-weight: 500;
+  font-family: "Source Serif Pro", sans-serif;
+  font-weight: 500;
 }
 
 .section-font select {
-    font-family: "Source Serif Pro", sans-serif;
-    font-weight: 500;
+  font-family: "Source Serif Pro", sans-serif;
+  font-weight: 500;
 }
 
 .circular-border {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .blockquote p {
-    font-style: italic;
+  font-style: italic;
 }
 
 .more-info-icons i {
-    font-size: 12vw;
+  font-size: 12vw;
 }
 
 .footer-font {
-    font-family: "Source Serif Pro", sans-serif;
-    font-weight: 300;
+  font-family: "Source Serif Pro", sans-serif;
+  font-weight: 300;
 }
-
-
-/* ---------- NAVIGATION BAR */
-
-
 
 /* ---------- CAROUSEL */
 
-
 .title-font h5 {
-    font-family: "Source Serif Pro", sans-serif;
-    font-weight: 700;
-    font-size: 8vw;
+  font-family: "Source Serif Pro", sans-serif;
+  font-weight: 700;
+  font-size: 8vw;
 }
 
 .title-font p {
-    font-family: "Source Serif Pro", sans-serif;
-    font-weight: 400;
-    font-size: 4vw;
+  font-family: "Source Serif Pro", sans-serif;
+  font-weight: 400;
+  font-size: 4vw;
 }
 
 .carousel-inner img {
-    height: 500px;
-    object-fit: cover;
+  height: 500px;
+  object-fit: cover;
 }
 
-/* ---------- GALLERY */
+/* ---------- PORTFOLIO */
 
 
 /* ---------- BACKGROUND IMAGES */
 
 .image-quote-1 {
-    background-image: url("../images/background1.png");
-    background-position: 50% 40%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../images/background1.jpg");
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .image-quote-2 {
-    background-image: url("../images/portfolio7.png");
-    background-position: 50% 25%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../images/portfolio7.png");
+  background-position: 50% 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .image-about-quote {
-    background-image: url("../images/background3.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: cover
+  background-image: url("../images/background3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .image-about-quote h1 {
-font-size: 8vw;
+  font-size: 8vw;
 }
-
 
 /* ---------- FOOTER */
 
-
 .footer {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .footer h3 {
-    letter-spacing: .2rem;
-    font-size: 8vw;
+  letter-spacing: 0.2rem;
+  font-size: 8vw;
 }
 
 .footer h4 {
-    font-size: 8vw;
+  font-size: 8vw;
 }
 
 .footer i {
-    letter-spacing: .2rem;
-    font-size: 4vw;
+  letter-spacing: 0.2rem;
+  font-size: 4vw;
 }
 
 .logo-footer img {
-    width: 40%;
-    height: 40%;
+  width: 40%;
+  height: 40%;
 }
-
 
 /* ---------- MEDIA QUERIES */
 
 /* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {  
+@media (min-width: 544px) {
   .carousel-item img {
     height: 525px;
-}
+  }
 
-.footer h3 {
-    letter-spacing: .2rem;
+  .footer h3 {
+    letter-spacing: 0.2rem;
     font-size: 4vw;
-}
+  }
 
-.footer h4 {
+  .footer h4 {
     font-size: 4vw;
-}
+  }
 
-.footer i {
-    letter-spacing: .2rem;
+  .footer i {
+    letter-spacing: 0.2rem;
     font-size: 2vw;
-}
+  }
 
-.social-links i {
+  .social-links i {
     font-size: 7vw;
+  }
 }
 
-
-}
- 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
+@media (min-width: 768px) {
   .carousel-item img {
     height: 550px;
-}
+  }
 
-.image-about-quote h1 {
+  .image-about-quote h1 {
     font-size: 5vw;
-    }
-
+  }
 }
- 
+
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   .carousel-item img {
     height: 600px;
-}
+  }
 
-.image-about-quote h1 {
-font-size: 54px;
-}
+  .image-about-quote h1 {
+    font-size: 54px;
+  }
 
-.title-font p {
+  .title-font p {
     font-size: 32px;
-}
+  }
 
-.title-font h5 {
+  .title-font h5 {
     font-size: 48px;
-}
+  }
 
-.footer h3 {
-    letter-spacing: .2rem;
+  .footer h3 {
+    letter-spacing: 0.2rem;
     font-size: 24px;
-}
+  }
 
-.footer h4 {
+  .footer h4 {
     font-size: 24px;
-}
+  }
 
-.footer i {
-    letter-spacing: .2rem;
+  .footer i {
+    letter-spacing: 0.2rem;
     font-size: 24px;
-}
+  }
 
-.social-links i {
+  .social-links i {
     font-size: 4vw;
-}
+  }
 
-
-.logo-footer img {
+  .logo-footer img {
     width: 50%;
-}
+  }
 
-.more-info-icons i {
+  .more-info-icons i {
     font-size: 4vw;
+  }
 }
 
-}
- 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
+@media (min-width: 1200px) {
   .carousel-item img {
     height: 700px;
-}
+  }
 
-.image-about-quote h1 {
+  .image-about-quote h1 {
     font-size: 58px;
-    }
+  }
 
-    .social-links i {
-        font-size: 2vw;
-    }
-
+  .social-links i {
+    font-size: 2vw;
+  }
 }
