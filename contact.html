@@ -110,17 +110,21 @@
             class="col-10 col-md-6 py-3 py-sm-5 section-font text-center text-md-start"
           >
             <!-- CONTACT FORM -->
-            <form>
+            <form action="https://formdump.codeinstitute.net/" method="POST">
               <div class="form-group">
                 <div class="form-floating">
                   <input
                     type="text"
                     class="form-control"
                     id="name"
-                    placeholder="Enter your name"
+                    placeholder="Enter your name (required)"
+                    name="Name"
                     required
                   />
-                  <label for="name">Enter your name</label>
+                  <label for="name">Enter your name (required)</label>
+                </div>
+                <div class="row py-1">
+                  <!-- NEGATIVE SPACE -->
                 </div>
                 <div class="form-floating">
                   <input
@@ -128,10 +132,14 @@
                     class="form-control"
                     id="emailAddress"
                     aria-describedby="detailsHelp"
-                    placeholder="Enter your email"
+                    placeholder="Enter your email (required)"
+                    name="Email"
                     required
                   />
-                  <label for="emailAddress">Enter your email</label>
+                  <label for="emailAddress">Enter your email (required)</label>
+                </div>
+                <div class="row py-1">
+                  <!-- NEGATIVE SPACE -->
                 </div>
                 <div class="form-floating">
                   <input
@@ -139,6 +147,7 @@
                     class="form-control"
                     id="phoneNumber"
                     placeholder="Enter your contact number"
+                    name="Phone number"
                   />
                   <label for="phoneNumber">Enter your contact number</label>
                   <small id="detailsHelp" class="form-text text-muted"
@@ -148,20 +157,24 @@
                 <div class="row py-3">
                   <!-- NEGATIVE SPACE -->
                 </div>
-                <select class="form-select" aria-label="Contact query choices">
+                <select class="form-select" aria-label="Contact query choices" name="Query topic">
                   <option selected>I am contacting you about...</option>
-                  <option value="1">Photo prints</option>
-                  <option value="2">Event photography</option>
-                  <option value="3">Commercial enquiry</option>
-                  <option value="3">Pet photography</option>
-                  <option value="3">Something else!</option>
+                  <option value="Photo prints">Photo prints</option>
+                  <option value="Event photography">Event photography</option>
+                  <option value="Commercial enquiry">Commercial enquiry</option>
+                  <option value="Pet photography">Pet photography</option>
+                  <option value="Something else!">Something else!</option>
                 </select>
+                <div class="row py-1">
+                  <!-- NEGATIVE SPACE -->
+                </div>
                 <div class="form-floating">
                   <textarea
                     class="form-control"
                     placeholder="How can I help?"
                     id="commentArea"
                     style="height: 300px"
+                    name="Comments"
                   ></textarea>
                   <label for="commentArea">How can I help?</label>
                 </div>
@@ -174,6 +187,7 @@
                   type="checkbox"
                   class="form-check-input"
                   id="mailingListCheck"
+                  name="Mailing List opt-in"
                 />
                 <label class="form-check-label" for="mailingListCheck"
                   >I would like to opt-in to your mailing list.</label
